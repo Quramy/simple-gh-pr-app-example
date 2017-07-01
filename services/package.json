@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=DEV; ../node_modules/.bin/serverless offline start"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.4.0",
+    "jsonwebtoken": "^7.4.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "plugins": [
+      { "name": "../node_modules/ts-graphql-plugin", "schema": "../github_schema.json" }
+    ]
+  }
+}
